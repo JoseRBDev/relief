@@ -141,6 +141,7 @@ a {
     border-right: none;
     font-size: 20pt;
     height: 75px;
+    word-wrap: normal;
   }
   .bibliografia {
     width: 45%;
