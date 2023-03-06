@@ -134,9 +134,11 @@ a {
 @media only screen and (max-device-width: 480px) {
   .Portada {
     width: 50%;
+    animation: none;
   }
   .bibliografia {
     width: 45%;
+    margin-left: 20%;
   }
 }
 
