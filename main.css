@@ -82,7 +82,7 @@ h2 {
   box-shadow: rgba(0, 0, 0, 0.36) 0px 5px 15px;
   width: 50%;
   margin-top: 20px;
-  margin-left: 30%;
+  margin-left: 25%;
 }
 
 .firstimg {
@@ -139,7 +139,7 @@ a {
     white-space: normal;
     letter-spacing: normal;
     border-right: none;
-    font-size: 20pt;
+    font-size: 17pt;
     height: 90px;
     word-wrap: normal;
   }
