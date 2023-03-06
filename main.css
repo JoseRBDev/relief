@@ -131,10 +131,10 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px), and (max-width:480px) {
   .Portada {
     width: 50%;
-    animation: none;
+    animation: another 3.5s steps(30, end), blinked .75s step-end infinite;;
   }
   .bibliografia {
     width: 45%;
