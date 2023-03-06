@@ -1,0 +1,143 @@
+/*
+color palette:
+
+#0b0c10
+#1F2822
+#c5c6c7
+#66fcf1
+#45a28e
+
+*/
+
+html {
+  font-family: 'Courier New', Courier, monospace;
+  /*background: rgb(240, 161, 195);
+  background: radial-gradient(circle, rgb(230, 156, 188) 0%, rgb(190, 162, 224) 51%, rgb(154, 185, 223) 100%);
+  background-position: 0;*/
+  background-color: aliceblue;
+  color: #213636;
+  text-shadow: 0px 0px 1px #0b0c10;
+}
+.authors {
+  text-align: center;
+  font-size: 1em;
+  font-family: sans-serif;
+  margin-top: -22px;
+  padding-top: 3em;
+}
+div.main {
+  margin: auto;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  border-radius: 15px 15px;
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 5px 15px;
+  background-color: rgba(176, 208, 246, 0.12);
+}
+p.Introduccion {
+  letter-spacing: 1px;
+  padding: 10px;
+}
+h1.Introduccion {
+  text-align: center;
+  font-family: monospace, fantasy;
+  font-style: oblique;
+}
+.Portada {
+  text-align: center;
+  text-shadow: 1px 1px 2px #0b0c10;
+  font-size: 2.2em;
+  font-style: oblique;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 300;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0px auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+}
+.index {
+  display: grid;
+  place-items: center;
+}
+.index>h1 {
+  font-family: monospace, fantasy;
+  font-style: oblique;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline orangered;
+  font-family: monospace;
+  font-weight: 800;
+  font-style: oblique;
+}
+
+.bibliografia {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 5px 15px;
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+.firstimg {
+  width: 62%;
+}
+.imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgs>img {
+  width: 45%;
+  border-radius: 15px;
+}
+.first>img {
+  width: 50%;
+  margin-left: 26%;
+  border-radius: 30px 30px;
+}
+
+.second>img {
+  width: 50%;
+  margin-left: 26%;
+  border-radius: 30px 30px;
+}
+
+.third>img {
+  width: 50%;
+  margin-left: 26%;
+  border-radius: 30px 30px;
+}
+
+.fourth>img {
+  width: 50%;
+  margin-left: 26%;
+  border-radius: 30px 30px;
+}
+
+.fiveth>img {
+  width: 50%;
+  margin-left: 26%;
+  border-radius: 30px 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
