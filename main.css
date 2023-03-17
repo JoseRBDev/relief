@@ -10,7 +10,7 @@ color palette:
 */
 
 html {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Ubuntu', sans-serif;
   /*background: rgb(240, 161, 195);
   background: radial-gradient(circle, rgb(230, 156, 188) 0%, rgb(190, 162, 224) 51%, rgb(154, 185, 223) 100%);
   background-position: 0;*/
@@ -59,6 +59,7 @@ h1.Introduccion {
   margin: 0px auto;
   letter-spacing: .15em;
   animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+  padding-top: 2%;
 }
 .index {
   display: grid;
@@ -68,10 +69,15 @@ h1.Introduccion {
   font-family: monospace, fantasy;
   font-style: oblique;
 }
-
+.main div {
+  border-radius: 15px 15px;
+  box-shadow:rgba(0, 0, 0, 0.36) 0px 5px 15px;
+  padding: 1%;
+  margin-top: 1%;
+  background-color: rgb(224, 238, 240);
+}
 h2 {
   text-align: center;
-  text-decoration: underline orangered;
   font-family: monospace;
   font-weight: 800;
   font-style: oblique;
@@ -82,11 +88,14 @@ h2 {
   box-shadow: rgba(0, 0, 0, 0.36) 0px 5px 15px;
   width: 50%;
   margin-top: 20px;
-  margin-left: 25%;
+  margin-left: 30%;
 }
 
 .firstimg {
   width: 62%;
+}
+img {
+  box-shadow: 1px 1px 5px#0b0c10;
 }
 .imgs {
   display: flex;
@@ -97,6 +106,7 @@ h2 {
   width: 45%;
   border-radius: 15px;
 }
+.imgs:first-child {}
 .first>img {
   width: 50%;
   margin-left: 26%;
@@ -133,20 +143,18 @@ a {
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
   .Portada {
-    width: 100%;
+    width: 50%;
     animation: anotherone 3.5s steps(30, end), blinked .75s step-end infinite;
-    overflow: show;
-    white-space: normal;
+    overflow: auto;
+    white-space: none;
     letter-spacing: normal;
     border-right: none;
-    font-size: 17pt;
-    height: 90px;
-    word-wrap: normal;
+    font-size: normal;
   }
   .bibliografia {
     width: 45%;
     margin-top: 30px;
-    margin-left: 22%;
+    margin-left: 12%;
   }
 }
 
