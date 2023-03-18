@@ -143,18 +143,19 @@ a {
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
   .Portada {
-    width: 50%;
+    width: 100%;
     animation: anotherone 3.5s steps(30, end), blinked .75s step-end infinite;
-    overflow: auto;
-    white-space: none;
+    overflow: show;
+    white-space: normal;
     letter-spacing: normal;
     border-right: none;
-    font-size: normal;
+    font-size: 17pt;
+    height: 90px;
   }
   .bibliografia {
     width: 45%;
     margin-top: 30px;
-    margin-left: 12%;
+    margin-left: 22%;
   }
 }
 
