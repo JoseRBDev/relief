@@ -69,12 +69,17 @@ h1.Introduccion {
   font-family: monospace, fantasy;
   font-style: oblique;
 }
+.index li{
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: larger;
+}
 .main div {
   border-radius: 15px 15px;
   box-shadow:rgba(0, 0, 0, 0.36) 0px 5px 15px;
   padding: 1%;
   margin-top: 1%;
-  background-color: rgb(224, 238, 240);
+  background-color: rgb(245, 245, 245);
 }
 h2 {
   text-align: center;
